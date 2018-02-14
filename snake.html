@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>彩色贪吃蛇</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="tip" id="tip">
+      <p>提示：游戏开始时按下任意键开始，空格暂停/继续，方向键控制,闯关满1000下一关</p>
+    </div>
+    <div class="begin-interface" id="begin_interface">
+      <h2>彩色贪吃蛇</h2>
+      <div class="method" id="method">
+        <button>加速模式</button>
+        <button>闯关模式</button>
+        <button>挑战模式</button>
+      </div>
+    </div>
+    <div id="game_box" class="game-box"></div>
+    <div class="meter">
+      <h2>得分</h2>
+      <h3 id="score">0</h3>
+      <h2>速度</h2>
+      <h3 id="speed">250</h3>
+      <div id="level_box" class="level-box">
+        <h2>等级</h2>
+        <h3 id="level">1</h3>
+      </div>
+    </div>
+    <div class="result-interface" id="result_interface">
+      <h2 id="gameResult"></h2>
+      <div class="result-operator" id="result-operator">
+        <button id="returnMenu">返回菜单</button>
+        <button id="restart">重新开始</button>
+        <button id="nextStage">下一关</button>
+      </div>
+    </div>
+  </div>
+<script src="main.js"></script>
+</body>
+</html>

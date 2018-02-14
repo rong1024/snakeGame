@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/*table预样式*/
+.wrap{
+  position:relative;
+  width:520px;
+  margin:50px auto;
+}
+table{
+  border-collapse:collapse;
+  border-color:#ccc;
+}
+td{
+  width:20px;
+  height:20px;
+}
+.w{
+  width:18px;
+  height:18px;
+  border:1px solid #fff;
+}
+/*食物样式*/
+.circle{
+  width:18px;
+  height:18px;
+  border-radius:50%;
+}
+/*游戏提示窗口*/
+.tip{
+  position:absolute;
+  left:0;
+  top:-28px;
+  width:525px;
+  height:24px;
+  border:1px solid rgba(77, 186, 240, 0.5);
+  font:14px/24px "宋体";
+  color:rgba(43, 58, 187, 0.5);
+}
+/*测量器位置*/
+.meter{
+  position:absolute;
+  left:-50px;
+  top:0px;
+  width:100px;
+  height:60px;
+  color:rgb(37, 137, 209);
+}
+.meter h2{
+  line-height:25px;
+}
+.meter h3{
+  line-height:35px;
+}
+.level-box{
+  display:none;
+}
+/*游戏开始界面*/
+.begin-interface,
+.result-interface
+{
+  position:absolute;
+  left:0px;
+  top:150px;
+  width:520px;
+  height:500px;
+  text-align:center;
+}
+.result-interface{
+  display:none;
+}
+.begin-interface h2,
+.result-interface h2{
+  margin-bottom: 60px;
+  font-weight:normal;
+  font:24px/28px "宋体";
+  color:rgb(21, 145, 75);
+}
+.begin-interface button,
+.result-interface button{
+  display:block;
+  margin:20px auto;
+  border:none;
+  width:120px;
+  height:22px;
+  font-weight:normal;
+  font:14px/18px "Microsoft Yahei","微软雅黑";
+  color:rgb(87, 51, 176);
+  background:rgba(255, 255, 255, 0.5);
+  cursor:pointer;
+}
